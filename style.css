@@ -6,11 +6,11 @@
   --bd-card-bg: rgba(15, 23, 42, 0.92);  /* card background (dark for now) */
   --bd-card-border: rgba(148, 163, 184, 0.4);
 
-  --bd-link: #60a5fa;            /* link color – still blue for now */
+  --bd-link: #b91c1c;            /* link color – still blue for now */
   --bd-footer-text: #64748b;     /* footer text color */
 
   --bd-gallery-border: rgba(148, 163, 184, 0.35);
-  --bd-gallery-hover-border: #60a5fa;
+  --bd-gallery-hover-border: #b91c1c;
 }
 
 /* Base layout */
