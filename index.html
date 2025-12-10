@@ -1,20 +1,45 @@
-vim -r index.html
-<main class="site-main">
- 
-    <!-- Vehicle List -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bavarian Dismantlers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="your-logo.png" alt="Bavarian Dismantlers Logo" class="logo">
+      <h1>Bavarian Dismantlers</h1>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-horizontal">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="spec-sheet.html">Spec Sheet</a></li>
+        <li><a href="launch-scans.html">Diagnostics</a></li>
+        <li><a href="mission.html">Mission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+
+    <!-- Vehicles Section -->
     <section class="card" id="vehicles">
       <h2>Vehicles</h2>
       <ul class="link-list">
         <li>
-          <a href="#panamera-2014-gallery">
-            2014 Porsche Panamera 970 (S Hybrid)
-          </a>
+          <a href="gallery.html">2014 Porsche Panamera 970 (S Hybrid)</a>
         </li>
       </ul>
     </section>
 
     <!-- Our Mission -->
-    <section id="our-mission" class="card">
+    <section class="card" id="our-mission">
       <h2>Our Mission</h2>
       <p>
         Bavarian Dismantlers is a father-and-son automotive recycling project based in Colorado, 
@@ -32,4 +57,19 @@ vim -r index.html
         organized media, and honest representation of every part we pull.
       </p>
     </section>
-    
+
+    <!-- Contact Section -->
+    <section class="card" id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:bavariandismantlers@gmail.com">bavariandismantlers@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/bavarian_dismantlers" target="_blank">@bavarian_dismantlers</a></p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Bavarian Dismantlers &middot; Media Portfolios</p>
+  </footer>
+</body>
+</html>
+
